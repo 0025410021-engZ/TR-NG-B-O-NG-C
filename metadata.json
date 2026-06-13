@@ -1,0 +1,6 @@
+{
+  "name": "Bé Vui Học Giao Tiếp Cùng AI",
+  "description": "Ứng dụng luyện nghe nói và giao tiếp tiếng Anh tương tác sáng tạo cho học sinh lớp 3 với trí tuệ nhân tạo AI",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

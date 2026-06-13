@@ -1,0 +1,308 @@
+{
+  "users": [
+    {
+      "id": "student_1",
+      "fullname": "Bé Tom",
+      "email": "tom@student.com",
+      "role": "student",
+      "avatar": "👦"
+    },
+    {
+      "id": "teacher_1",
+      "fullname": "Cô Hoa",
+      "email": "hoa@teacher.com",
+      "role": "teacher",
+      "avatar": "👩‍🏫"
+    },
+    {
+      "id": "parent_1",
+      "fullname": "Mẹ của Tom",
+      "email": "parent@family.com",
+      "role": "parent",
+      "avatar": "👩"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson_1",
+      "title": "Bài 1: Hello! What's Your Name?",
+      "description": "Học cách chào hỏi bằng tiếng Anh và tự giới thiệu tên của mình thật vui vẻ nào!",
+      "level": "Cơ bản (Lớp 3)",
+      "topic": "Greetings (Chào hỏi)",
+      "video_url": "https://youtu.be/Uv1JkBL5728?list=RDUv1JkBL5728",
+      "script": [
+        {
+          "id": "s1",
+          "role": "teacher",
+          "text": "Hello! What's your name?",
+          "translation": "Xin chào! Tên của con là gì?"
+        },
+        {
+          "id": "s2",
+          "role": "student",
+          "text": "Hello! My name is Tom.",
+          "translation": "Xin chào! Tên của con là Tom."
+        },
+        {
+          "id": "s3",
+          "role": "teacher",
+          "text": "Nice to meet you, Tom.",
+          "translation": "Rất vui được gặp con, Tom."
+        },
+        {
+          "id": "s4",
+          "role": "student",
+          "text": "Nice to meet you too.",
+          "translation": "Con cũng rất vui được gặp cô."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Hello",
+          "type": "Interjection",
+          "pronunciation": "/həˈləʊ/",
+          "meaning": "Xin chào",
+          "example": "Hello, teacher!"
+        },
+        {
+          "word": "Name",
+          "type": "Noun",
+          "pronunciation": "/neɪm/",
+          "meaning": "Tên",
+          "example": "My name is Tom."
+        },
+        {
+          "word": "Meet",
+          "type": "Verb",
+          "pronunciation": "/miːt/",
+          "meaning": "Gặp gỡ",
+          "example": "Nice to meet you!"
+        }
+      ],
+      "key_sentences": [
+        "What's your name?",
+        "My name is Tom.",
+        "Nice to meet you."
+      ]
+    },
+    {
+      "id": "lesson_2",
+      "title": "Bài 2: Let's Go To My Classroom!",
+      "description": "Cùng làm quen với các dụng cụ học tập dễ thương có trong cặp sách của bé.",
+      "level": "Trung bình (Lớp 3)",
+      "topic": "School Items (Trường lớp)",
+      "video_url": "https://www.youtube.com/embed/i0S6AeSE1Uw?list=RDi0S6AeSE1Uw",
+      "script": [
+        {
+          "id": "s1",
+          "role": "teacher",
+          "text": "What is this? Is it a book?",
+          "translation": "Đây là cái gì? Có phải cuốn sách không con?"
+        },
+        {
+          "id": "s2",
+          "role": "student",
+          "text": "No, it is a blue pencil.",
+          "translation": "Dạ không, nó là cây bút chì màu xanh dương."
+        },
+        {
+          "id": "s3",
+          "role": "teacher",
+          "text": "Oh, is it in your bag?",
+          "translation": "Ôi, thế nó có nằm trong cặp sách của con không?"
+        },
+        {
+          "id": "s4",
+          "role": "student",
+          "text": "Yes, it is in my school bag.",
+          "translation": "Dạ có, nó ở trong cặp đi học của con."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Pencil",
+          "type": "Noun",
+          "pronunciation": "/ˈpensl/",
+          "meaning": "Bút chì",
+          "example": "This is my pencil."
+        },
+        {
+          "word": "School bag",
+          "type": "Noun",
+          "pronunciation": "/skuːl bæɡ/",
+          "meaning": "Cặp sách",
+          "example": "My school bag is green."
+        },
+        {
+          "word": "Book",
+          "type": "Noun",
+          "pronunciation": "/bʊk/",
+          "meaning": "Sách",
+          "example": "Open your book, please."
+        }
+      ],
+      "key_sentences": [
+        "Is it a book?",
+        "It is a blue pencil.",
+        "Yes, it is in my school bag."
+      ]
+    },
+    {
+      "id": "lesson_3",
+      "title": "Bài 3: My Cute Farm Animals!",
+      "description": "Thăm nông trại vui nhộn và học tên gọi của các bạn động vật đáng yêu.",
+      "level": "Thử thách (Lớp 3)",
+      "topic": "Animals (Thú cưng & Động vật)",
+      "video_url": "https://www.youtube.com/shorts/2XjJPxxtQoE?feature=share",
+      "script": [
+        {
+          "id": "s1",
+          "role": "teacher",
+          "text": "Look! Do you have a dog?",
+          "translation": "Nhìn kìa! Con có nuôi một chú chó nào không?"
+        },
+        {
+          "id": "s2",
+          "role": "student",
+          "text": "Yes! I have a happy brown dog.",
+          "translation": "Dạ có! Con nuôi một chú chó màu nâu rất vui vẻ."
+        },
+        {
+          "id": "s3",
+          "role": "teacher",
+          "text": "Great! Does it love bones?",
+          "translation": "Tuyệt vời! Chú chó ấy có thích ăn xương không con?"
+        },
+        {
+          "id": "s4",
+          "role": "student",
+          "text": "Yes, it loves to run and eat bones.",
+          "translation": "Dạ có, nó rất thích chạy chơi và ăn xương ạ."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Dog",
+          "type": "Noun",
+          "pronunciation": "/dɒɡ/",
+          "meaning": "Con chó",
+          "example": "I love my little dog."
+        },
+        {
+          "word": "Farm",
+          "type": "Noun",
+          "pronunciation": "/fɑːm/",
+          "meaning": "Nông trại",
+          "example": "My grandpa lives on a farm."
+        },
+        {
+          "word": "Happy",
+          "type": "Adjective",
+          "pronunciation": "/ˈhæpi/",
+          "meaning": "Vui vẻ",
+          "example": "She is a happy girl."
+        }
+      ],
+      "key_sentences": [
+        "Do you have a dog?",
+        "I have a happy brown dog.",
+        "Yes, it loves to run and eat bones."
+      ]
+    }
+  ],
+  "practiceRecords": [
+    {
+      "id": "record_demo_1",
+      "user_id": "student_1",
+      "lesson_id": "lesson_1",
+      "lesson_title": "Bài 1: Hello! What's Your Name?",
+      "speech_text": "My name is Tom.",
+      "target_text": "My name is Tom.",
+      "score": {
+        "pronunciation": 90,
+        "accuracy": 95,
+        "intonation": 88,
+        "fluency": 92,
+        "average": 91
+      },
+      "feedback": "Con phát âm đúng từ 'name', âm cuối rất chuẩn xác. Nghe rất lưu loát và tự nhiên!",
+      "suggestions": [
+        "Con hãy giữ nguyên ngữ điệu đáng yêu này nhé!",
+        "Thử mở khẩu hình to hơn ở nguyên âm 'a'."
+      ],
+      "created_at": "2026-06-11T07:41:28.491Z"
+    },
+    {
+      "id": "record_demo_2",
+      "user_id": "student_1",
+      "lesson_id": "lesson_1",
+      "lesson_title": "Bài 1: Hello! What's Your Name?",
+      "speech_text": "Nice to meet you too.",
+      "target_text": "Nice to meet you too.",
+      "score": {
+        "pronunciation": 85,
+        "accuracy": 88,
+        "intonation": 82,
+        "fluency": 85,
+        "average": 85
+      },
+      "feedback": "Tuyệt quá! Cách phát âm của con nghe rất rõ ràng.",
+      "suggestions": [
+        "Bé hãy chú ý nhấn giọng ở từ 'meet' một chút nhé.",
+        "Cố gắng nối âm nhẹ giữa 'meet' và 'you'."
+      ],
+      "created_at": "2026-06-12T07:41:28.492Z"
+    },
+    {
+      "id": "record_demo_3",
+      "user_id": "student_1",
+      "lesson_id": "lesson_2",
+      "lesson_title": "Bài 2: Let's Go To My Classroom!",
+      "speech_text": "it is a blue pen",
+      "target_text": "No, it is a blue pencil.",
+      "score": {
+        "pronunciation": 78,
+        "accuracy": 70,
+        "intonation": 75,
+        "fluency": 80,
+        "average": 76
+      },
+      "feedback": "Cố lên con yêu! Con đã nói được một nửa câu mẫu một cách xuất sắc.",
+      "suggestions": [
+        "Bé nhớ nói đầy đủ từ 'pencil' thay vì chỉ 'pen' nhé.",
+        "Nghe hướng dẫn phát âm chuẩn và thử lại nhé."
+      ],
+      "created_at": "2026-06-13T05:41:28.492Z"
+    }
+  ],
+  "progress": [
+    {
+      "user_id": "student_1",
+      "completed_lessons": [
+        "lesson_1"
+      ],
+      "average_score": 84,
+      "learning_streak": 3,
+      "total_practice_time": 45,
+      "last_active": "2026-06-13T07:41:28.492Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "badge_1",
+      "title": "Nhà Giao Tiếp Nhí",
+      "description": "Hoàn thành xuất sắc lượt nói đầu tiên của con",
+      "icon": "Mic",
+      "points": 10,
+      "unlockedAt": "2026-06-11T07:41:28.492Z"
+    },
+    {
+      "id": "badge_2",
+      "title": "Sao Sáng Tiếng Anh",
+      "description": "Đạt số điểm trung bình trên 85 trong một bài học",
+      "icon": "Star",
+      "points": 20,
+      "unlockedAt": "2026-06-12T07:41:28.492Z"
+    }
+  ]
+}
